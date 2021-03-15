@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  max-width: 1000px;
+  box-sizing: border-box;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.box-1 {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+}
+
+.box-2 {
+  flex: 1;
+  margin: 5px;
+  padding: 5px;
+}
+
+.box-3 {
+  flex: 1;
+  margin: 5px;
+  padding: 5px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+img :hover {
+  width: 800;
+  height: 600;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(201, 110, 67);
+}
+
+h3 {
+  color: lightskyblue;
+}
+
+p {
+  text-align: justify;
+}
